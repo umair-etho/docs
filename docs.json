@@ -25,7 +25,8 @@
             "pages": [
               "modules/dashboard",
               "modules/brand",
-              "modules/offers"
+              "modules/offers",
+              "modules/integrations"
             ]
           }
         ]
