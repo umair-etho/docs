@@ -1,68 +1,29 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "OlympusAI",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#0D9373",
     "light": "#07C983",
-    "dark": "#15803D"
+    "dark": "#0D9373"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "User Guide",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "quickstart"
             ]
           },
           {
-            "group": "Customization",
+            "group": "App Modules",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "modules/dashboard"
             ]
           }
         ]
@@ -71,14 +32,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "App",
+          "href": "https://app.etho.net/",
+          "icon": "rocket"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Support",
+          "href": "mailto:support@etho.net",
+          "icon": "life-ring"
         }
       ]
     }
@@ -91,13 +52,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@etho.net"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Open App",
+      "href": "https://app.etho.net/"
     }
   },
   "contextual": {
@@ -114,9 +75,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/ethonet",
+      "github": "https://github.com/ethonet",
+      "linkedin": "https://linkedin.com/company/ethonet"
     }
   }
 }
