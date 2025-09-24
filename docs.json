@@ -23,7 +23,9 @@
           {
             "group": "App Modules",
             "pages": [
-              "modules/dashboard"
+              "modules/dashboard",
+              "modules/brand",
+              "modules/offers"
             ]
           }
         ]
